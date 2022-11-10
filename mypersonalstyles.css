@@ -1,0 +1,195 @@
+body {
+  background-color: #C0F3F0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  text-align: center;
+}
+
+p {
+  margin: auto 100px auto 100px;
+  color: #40514E
+}
+
+span {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #D9FFFC;
+  position: relative;
+  padding-top: 100px;
+}
+
+.mountains-png {
+  background-color: #D9FFFC;
+  width: 1520px;
+  height: 550px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 10%;
+  top: 50px;
+  height: 300px;
+  width: 450px;
+  animation-name: drifting-left;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes drifting-left {
+  0% {
+    left: 0
+  }
+
+  100% {
+    left: 5%
+  }
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 20%;
+  bottom: 40%;
+  height: 250px;
+  width: 450px;
+  animation-name: drifting-right;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes drifting-right {
+  0% {
+    right: 0
+  }
+
+  100% {
+    right: 5%;
+  }
+}
+
+.pfp {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted #778899;
+  width: 5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.waiter-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.waiter-skill {
+  width: 50%;
+  margin: 50px auto;
+  line-height: 1.5;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.headphones-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.music-skill {
+  width: 50%;
+  margin: 50px auto;
+  line-height: 1.5;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.game-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gaming-skill {
+  width: 50%;
+  margin: 50px auto;
+  line-height: 1.5;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.myButton {
+  background-color: #11cdd4;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #2f6627;
+}
+
+.myButton:hover {
+  background-color: #30e3cb;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.mid-bottom-p {
+  padding-bottom: 30px;
+}
+
+.bottom-container {
+  background-color: #65CDB4;
+  padding-top: 30px;
+}
+
+a {
+padding: 0 20px 0 20px;
+
+
+}
+a:hover {
+  color: #7CF843;
+}
+
+.bottom-paragraph {
+  padding-top: 20px;
+  color: #DEE0DD;
+  padding-bottom: 10px;
+}
